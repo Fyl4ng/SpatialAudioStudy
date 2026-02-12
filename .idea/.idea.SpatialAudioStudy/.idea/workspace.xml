@@ -12,7 +12,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f40f0f39-ce86-445e-8714-5087db9af7a7" name="Changes" comment="" />
+    <list default="true" id="f40f0f39-ce86-445e-8714-5087db9af7a7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SpatialAudioStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpatialAudioStudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Metasound/Test.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Metasound/Test.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/SomSpatialAudioPlugin/Source/SomSpatialAudioPlugin/Private/ITDPannerSomNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/SomSpatialAudioPlugin/Source/SomSpatialAudioPlugin/Private/ITDPannerSomNode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/SomSpatialAudioPlugin/Source/SomSpatialAudioPlugin/Private/StereoPannerSomNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/SomSpatialAudioPlugin/Source/SomSpatialAudioPlugin/Private/StereoPannerSomNode.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,9 +26,22 @@
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Plugins/Runtime/Metasound/Source/MetasoundStandardNodes/Private/MetasoundDelayNode.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Plugins/Runtime/Metasound/Source/MetasoundStandardNodes/Private/MetasoundITDPannerNode.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Plugins/Runtime/Metasound/Source/MetasoundStandardNodes/Private/MetasoundStereoDelayNode.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Programs/Shared/EpicGames.BuildGraph/BgInterpreter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Programs/Shared/EpicGames.OIDC/FakeOidcTokenManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Runtime/Core/Public/Containers/CircularBuffer.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Runtime/SignalProcessing/Public/DSP/Delay.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="39UmkfXC1otmnCUoNAysrNR0D8K" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,7 +52,9 @@
     "C/C++ Project.SpatialAudioStudy.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "Dev",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -142,7 +162,10 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -154,6 +177,9 @@
       <option name="presentableId" value="Default" />
       <updated>1770759167833</updated>
       <workItem from="1770759168693" duration="394000" />
+      <workItem from="1770844415472" duration="60000" />
+      <workItem from="1770913575992" duration="3000" />
+      <workItem from="1770913715563" duration="3131000" />
     </task>
     <servers />
   </component>

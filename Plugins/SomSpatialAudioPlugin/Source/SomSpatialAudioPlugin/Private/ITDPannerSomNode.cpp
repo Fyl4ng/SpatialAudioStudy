@@ -22,10 +22,10 @@ namespace Metasound
 		METASOUND_PARAM(OutputRight, "Right", "Right ear signal");
 	}
 	
-	class FITDPannerOperator : public TExecutableOperator<FITDPannerOperator>
+	class FItdPannerOperator : public TExecutableOperator<FItdPannerOperator>
 	{
 	public:
-		FITDPannerOperator(
+		FItdPannerOperator(
 			const FBuildOperatorParams& InParams,
 			const FAudioBufferReadRef& InAudio,
 			const FFloatReadRef& InAzimuth)
@@ -100,7 +100,7 @@ namespace Metasound
 			auto Az = Inputs.GetOrCreateDefaultDataReadReference<float>(
 				METASOUND_GET_PARAM_NAME(Azimuth), InParams.OperatorSettings);
 
-			return MakeUnique<FITDPannerOperator>(InParams, Audio, Az);
+			return MakeUnique<FItdPannerOperator>(InParams, Audio, Az);
 		}
 
 		void Reset(const IOperator::FResetParams&)
@@ -122,11 +122,11 @@ namespace Metasound
 			float* R = AudioRight->GetData();
 			
 			const float Az = FMath::Clamp(*Azimuth, -1.f, 1.f);
+
+			constexpr float MaxItdSeconds = 0.0006f;
 			
-			const float MaxITDSeconds = 0.0006f;
-			
-			const float ITDSeconds = Az * MaxITDSeconds;
-			const float DelaySamples = FMath::Abs(ITDSeconds) * SampleRate;
+			const float ItdSeconds = Az * MaxItdSeconds;
+			const float DelaySamples = FMath::Abs(ItdSeconds) * SampleRate;
 
 			for (int32 i = 0; i < NumFrames; ++i)
 			{
@@ -148,7 +148,7 @@ namespace Metasound
 				{
 					L[i] = In[i];
 					R[i] = DelayedSample;
-				}
+				}//Chapter 11, Audio Programming 4
 
 				WriteIndex = (WriteIndex + 1) % MaxDelaySamples;
 			}
@@ -163,6 +163,7 @@ namespace Metasound
 
 		float SampleRate;
 		
+		//TCircularBuffer<float> // Try using CircularBuffer instead of normal array
 		static constexpr int32 MaxDelaySamples = 64;
 		TArray<float> DelayBuffer;
 		int32 WriteIndex = 0;
@@ -173,7 +174,7 @@ namespace Metasound
 	public:
 		FITDPannerNode(const FNodeInitData& InitData)
 			: FNodeFacade(InitData.InstanceName, InitData.InstanceID,
-				TFacadeOperatorClass<FITDPannerOperator>())
+				TFacadeOperatorClass<FItdPannerOperator>())
 		{}
 	};
 

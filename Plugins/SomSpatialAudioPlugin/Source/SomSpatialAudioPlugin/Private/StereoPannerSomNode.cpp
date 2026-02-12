@@ -277,9 +277,7 @@ namespace Metasound
 			
 			const bool bGainsEqual = FMath::IsNearlyEqual(LeftGainStart, LeftGainEnd, KINDA_SMALL_NUMBER)
 						&& FMath::IsNearlyEqual(RightGainStart, RightGainEnd, KINDA_SMALL_NUMBER);
-			
-			const bool bUseFade = FadeRemaining > 0;
-			
+
 			int32 LocalFadeRemaining = FadeRemaining;
 			
 			if (bGainsEqual)

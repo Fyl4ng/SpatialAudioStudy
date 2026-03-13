@@ -14,9 +14,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f40f0f39-ce86-445e-8714-5087db9af7a7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpatialAudioStudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpatialAudioStudy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Metasound/Test.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Metasound/Test.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/SomSpatialAudioPlugin/Source/SomSpatialAudioPlugin/Private/ITDPannerSomNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/SomSpatialAudioPlugin/Source/SomSpatialAudioPlugin/Private/ITDPannerSomNode.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plugins/SomSpatialAudioPlugin/Source/SomSpatialAudioPlugin/Private/StereoPannerSomNode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/SomSpatialAudioPlugin/Source/SomSpatialAudioPlugin/Private/StereoPannerSomNode.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +28,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Plugins/Runtime/Metasound/Source/MetasoundStandardNodes/Private/MetasoundDelayNode.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Plugins/Runtime/Metasound/Source/MetasoundStandardNodes/Private/MetasoundITDPannerNode.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://3" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Plugins/Runtime/Metasound/Source/MetasoundStandardNodes/Private/MetasoundDelayNode.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Plugins/Runtime/Metasound/Source/MetasoundStandardNodes/Private/MetasoundITDPannerNode.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Plugins/Runtime/Metasound/Source/MetasoundStandardNodes/Private/MetasoundStereoDelayNode.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Programs/Shared/EpicGames.BuildGraph/BgInterpreter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Unreal/UE_5.7/Engine/Source/Programs/Shared/EpicGames.OIDC/FakeOidcTokenManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -47,22 +45,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C/C++ Project.SpatialAudioStudy.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "Dev",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ Project.SpatialAudioStudy.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="C/C++ Project.SpatialAudioStudy">
     <configuration name="SpatialAudioStudy" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
@@ -179,7 +177,9 @@
       <workItem from="1770759168693" duration="394000" />
       <workItem from="1770844415472" duration="60000" />
       <workItem from="1770913575992" duration="3000" />
-      <workItem from="1770913715563" duration="3131000" />
+      <workItem from="1770913715563" duration="3992000" />
+      <workItem from="1772053709169" duration="4520000" />
+      <workItem from="1772923393589" duration="606000" />
     </task>
     <servers />
   </component>
